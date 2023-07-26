@@ -1,0 +1,193 @@
+ /* CSS reset  */
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* css variables  */
+:root {
+    --navbar-height: 59px;
+}
+
+/* navigation bar  */
+#navbar {
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+/* navigation bar: logo and images  */
+#logo {
+    margin: 13px 29px;
+}
+
+#logo img {
+    height: 85px;
+    width: 90px;
+}
+
+/* navbar list styling  */
+
+
+#navbar ul {
+    display: flex;
+}
+
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+
+/* Home section  */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 436px;
+
+}
+
+#home::before {
+    content: "";
+    background: url("Images/Bg3.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .89;
+    top: 0;
+    left: 0;
+}
+
+/* Services section  */
+#services {
+    margin: 23px;
+    display: flex;
+
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 12px;
+    border-radius: 23px;
+    background-color: gray;
+}
+
+#services .box img {
+    height: 140px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+#services {}
+
+#services {}
+
+/* Cliet section  */
+#client-section {
+    height: 344px;
+}
+
+.h-primary-center {
+    text-align: center;
+    margin: 28px auto;
+    padding: 18px;
+    font-family: 'Autour One', cursive;
+    font-size: 2.8rem;
+}
+
+.client-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item img {
+    height: 95px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 2px 22px;
+    /* width: 322px; */
+}
+
+
+/* utitlity classses  */
+.h-primary {
+    font-family: 'Autour One', cursive;
+    font-size: 2.8rem;
+    padding: 16px 12px;
+    /* display: block; */
+    margin: 38.5px auto;
+    text-align: center;
+}
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+    padding: 12px;
+    text-align: center;
+}
+
+#home h1 {
+    font-family: 'Autour One', cursive;
+    color: white;
+    text-align: center;
+}
+
+#home p {
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: gray;
+    margin: 17px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
