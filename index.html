@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Services in India - YummyFoods.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+    <style>
+        /* CSS reset  */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* css variables  */
+        :root {
+            --navbar-height: 59px;
+        }
+
+        /* navigation bar  */
+        #navbar {
+            font-family: 'Manrope', sans-serif;
+            display: flex;
+            align-items: center;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+
+        /* navigation bar: logo and images  */
+        #logo {
+            margin: 13px 29px;
+        }
+
+        #logo img {
+            height: 85px;
+            width: 90px;
+        }
+
+        /* navbar list styling  */
+
+
+        #navbar ul {
+            display: flex;
+        }
+
+
+        #navbar ul li {
+            color: white;
+            list-style: none;
+            font-size: 1.3rem;
+        }
+
+        #navbar ul li a {
+            color: white;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        #navbar ul li a:hover {
+            color: black;
+            background-color: white;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: .4;
+        }
+
+        /* Home section  */
+        #home {
+            display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            justify-content: center;
+            align-items: center;
+            height: 436px;
+
+        }
+
+        #home::before {
+            content: "";
+            background: url("Images/Bg3.jpg") no-repeat center center/cover;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: .89;
+            top: 0;
+            left: 0;
+        }
+
+        /* Services section  */
+        #services {
+            margin: 23px;
+            display: flex;
+
+        }
+
+        #services .box {
+            border: 2px solid brown;
+            padding: 34px;
+            margin: 3px 12px;
+            border-radius: 23px;
+            background-color: gray;
+        }
+
+        #services .box img {
+            height: 140px;
+            margin: auto;
+            display: block;
+        }
+
+        #services .box p {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        #services {}
+
+        #services {}
+
+        /* Cliet section  */
+        #client-section{
+
+        }
+        .client-item{
+            display: flex;
+        }
+
+
+
+        /* utitlity classses  */
+        .h-primary {
+            font-family: 'Manrope', sans-serif;
+            font-size: 2.8rem;
+            padding: 16px 12px;
+            /* display: block; */
+            margin: 38.5px auto;
+            text-align: center;
+        }
+
+        .h-secondary {
+            font-family: 'Manrope', sans-serif;
+            font-size: 1.8rem;
+            padding: 12px;
+            text-align: center;
+        }
+
+        #home h1 {
+            font-family: 'Manrope', sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        #home p {
+            font-family: 'Manrope', sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .btn {
+            padding: 6px 20px;
+            border: 2px solid white;
+            background-color: gray;
+            margin: 17px;
+            font-size: 1.1rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Images/Logo.PNG" alt="YummyFoods">
+        </div>
+        <ul>
+            <li class="item"><a href="">Home</a></li>
+            <li class="item"><a href="">Services</a></li>
+            <li class="item"><a href="">About Us</a></li>
+            <li class="item"><a href="">Help</a></li>
+            <li class="item"><a href="">Feedback</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to YummyFoods</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facere vel aliquam recusandae nobis dolore
+            amet quidem dicta nisi inventore.</P>
+        <P>Lorem ipsum dolor sit amet consectetu.</P>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="Images/1.jpg" alt="">
+                <h2 class="h-secondary">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quisquam non eius
+                    dolorum
+                    doloribus quos molestiae inventore, architecto illo modi voluptatum unde id. Odit, error
+                    blanditi</p>
+            </div>
+            <div class="box">
+                <img src="Images/2.jpg" alt="">
+                <h2 class="h-secondary">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quisquam non eius
+                    dolorum
+                    doloribus quos molestiae inventore, architecto illo modi voluptatum unde id. Odit, error
+                    blanditi</p>
+            </div>
+            <div class="box">
+                <img src="Images/3.jpg" alt="">
+                <h2 class="h-secondary">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quisquam non eius
+                    dolorum
+                    doloribus quos molestiae inventore, architecto illo modi voluptatum unde id. Odit, error
+                    blanditi</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary-center">Our Clients</h1>
+        <div id="client-item">
+            <img src="Images/Apple.jpg" alt="">
+        </div>
+
+    </section>
+</body>
+
+</html>
