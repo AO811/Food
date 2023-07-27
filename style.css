@@ -3,6 +3,9 @@
      margin: 0px;
      padding: 0px;
  }
+ html{
+scroll-behavior: smooth;
+ }
 
  /* css variables  */
  :root {
@@ -14,9 +17,10 @@
      font-family: 'Bree Serif', serif;
      display: flex;
      align-items: center;
-     position: relative;
+     position: sticky;
      top: 0px;
      left: 0px;
+     opacity: 0.9;
  }
 
  /* navigation bar: logo and images  */
@@ -90,11 +94,11 @@
  }
 
  /* Services section  */
- .services-container {
+ #services-container {
      /* height: 344px;  */
  }
 
- .services-container::before {
+ #services-container::before {
      content: "";
      position: absolute;
      background-color: #3b3a3a;
